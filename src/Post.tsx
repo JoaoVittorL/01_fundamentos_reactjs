@@ -1,7 +1,10 @@
 import React from 'react';
 
-export const Post = () => {
+export const Post = (props) => {
   return (
-    <div>Post</div>
+    <div>
+      <strong>{props.author}</strong>
+      <p>{props.content}</p>
+    </div>
   )
 }
