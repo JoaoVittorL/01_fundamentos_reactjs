@@ -1,10 +1,13 @@
-function App() {
+import { Post } from "./Post";
 
+export function App() {
   return (
     <>
-    Hello Vite + React
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </>
-  )
+  );
 }
-
-export default App
